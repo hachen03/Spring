@@ -1,0 +1,7 @@
+SpringEX3
+pom.xml裡面放mysql-connector & hibernate core & struts-core &springframework
+利用hibernate.cfg.xml連線
+利用struts.xml連結頁面
+web.xml裡面要寫struts的內容
+sp1.mxl給初始值
+sp2.xml給控管memberDao porderDao與DaoFactory

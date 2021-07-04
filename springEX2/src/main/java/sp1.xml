@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns = "http://www.springframework.org/schema/beans"
+   xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation = "http://www.springframework.org/schema/beans
+   http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+   <bean id = "b" class = "Model.bookStyle">
+  		<property name="books">
+  			<list>
+  				<value>java</value>
+  				<value>javaWEB</value>
+  			</list>  		
+  		</property> 
+  		<property name="address">
+  			<list>
+  				<value>台北</value>
+  				<value>台中</value>
+  				<value>台南</value>
+  				<value>高雄</value>
+  			</list>
+  		</property> 
+  	
+  	
+  		<property name="price">
+  			<map>
+  				<entry key="java7" value="100.5"/>
+  				<entry key="java8" value="100.5"/>
+  				<entry key="javaWEB" value="100.5"/>
+  			</map>
+  		</property> 
+  		
+  		
+  		<property name="phone">
+  			<list>
+  				<value>0123</value>
+  				<value>0000</value>
+  			
+  			</list>
+  		
+  		</property>   
+   </bean>
+
+</beans>
